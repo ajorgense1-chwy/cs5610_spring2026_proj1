@@ -1,0 +1,93 @@
+/*        h1 {
+            color: rebeccapurple;
+        }
+
+        div {
+
+            color: pink;
+        }
+
+        
+        #TitleTag {
+            font-size: 48px;
+            color: orange;
+        }
+
+        .green-color {
+            color: green;
+        }
+
+        .blue-color {
+            color: blue;
+        }
+
+        .small-text {
+            font-size: 36px;
+        }
+
+        .big-text {
+            font-size: 12px;
+        }*/
+
+/*
+        #TitleTag {
+            color: rgba(0,0,0, 0);
+            font-size: 48px;
+        } */
+/*
+        @media(min-width: 600px) {
+            #TitleTag {
+                color: green;
+            } 
+        }
+       */
+
+/*        .daddy-div {
+            font-size: 64px;
+        }
+
+        .child-one {
+            color: green;
+            font-size: 24px;
+        }
+
+        .child-two {
+            color: blue;
+            font-size: 50%;
+        }*/
+        
+
+        .fun-box {
+            position: relative;
+            border: 1px solid black;
+            background-color: lightseagreen;
+            height: 70px;
+            width: 70px;
+            margin: 15px;
+            padding: 25px;
+            transition: 1s;
+            /*margin-bottom: 25px;*/
+            /*float: right;*/
+        }
+
+        .fun-box:hover {
+            background-color: firebrick;
+        }
+
+        .fun-box::selection {
+            background-color: orange;
+        }
+
+        .fun-box::first-letter {
+            background-color: blue;
+            font-size: 200%;
+        }
+
+
+ /*       .shifted {
+            position: sticky;
+            top: 0px;
+            right: 10px;
+            z-index: -1;
+            float: left;
+        }*/
